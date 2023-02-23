@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Company Site</title>
+</head>
+<body>
+    <div id="container">
+        <header id="header">
+            <nav id="nav">
+                <div id="logo-container">
+                    <h1 id="logo">Codayomide</h1>
+                </div>
+            
+                <div id="links-container">
+                    <a href="#">Home</a>
+                    <a href="#">Blog</a>
+                    <a href="#services">Services</a>
+                    <a href="#reach-out">Contact</a>
+                    <a href="#">About</a>
+                </div>
+            </nav>
+
+            <div id="hero-section">
+                <video muted autoplay loop src="./resources/videos/bg-video.mp4" id="video-bg"></video>
+
+                <div id="overlay-text">
+                    <h2>Fullscreen Background</h2>
+                    <p>with <span>joshytheprogrammer</span></p>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section id="services">
+                <div class="section-header">
+                    <h2>Services</h2>
+                </div>
+
+                <div id="services-main">
+                    <div class="service-cards">
+                        <img src="./resources/images/web-design-img.png" class="card-images">
+                        <h3>Web Design</h3>
+                        <button>Contact us</button>
+                    </div>
+
+                    <div class="service-cards">
+                        <img src="./resources/images/web-dev-img.jpg" class="card-images">
+                        <h3>Web Development</h3>
+                        <button>Contact us</button>
+                    </div>
+
+                    <div class="service-cards">
+                        <img src="./resources/images/app-dev-img.png" class="card-images">
+                        <h3>App Development</h3>
+                        <button>Contact us</button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="reach-out">
+                <div class="section-header">
+                    <h2>Reach Out</h2>
+                </div>
+
+                <div id="reach-out-main">
+                    <img src="./download (1).jpg" id="reach-out-img">
+                    <form action="#" id="form">
+                        <div class="input-container">
+                            <label for="Email">Email</label>
+                            <input name="email" type="email" id="email-input">
+                        </div>
+
+                        <div class="input-container">
+                            <label for="Phone">Phone</label>
+                            <input name="phone" type="text" id="phone-input">
+                        </div>
+
+                        <div class="input-container">
+                            <label for="Message">Message</label>
+                            <textarea name="message" id="message-input"></textarea>
+                        </div>
+
+                        <div id="submit-btn-container">
+                            <button>Contact</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <section id="jumbotron">
+                <img src="./Rectangle 10.png" alt="">
+                <button>Watch on Youtube</button>
+            </section>
+        </main>
+
+        <footer id="footer">
+            <div class="footer-sections">
+                <h2>Address</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nulla, hic libero qui placeat impedit quaerat in totam nam reprehenderit, pariatur omnis nostrum ipsum aspernatur fugiat recusandae eum, quos aperiam similique inventore quod aliquam? Facilis earum nostrum odio.</p>
+            </div>
+
+            <div class="footer-sections">
+                <h2>Contacts</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nulla, hic libero qui placeat impedit quaerat in totam nam reprehenderit, pariatur omnis nostrum ipsum aspernatur fugiat recusandae eum, quos aperiam similique inventore quod aliquam? Facilis earum nostrum odio.</p>
+            </div>
+
+            <div class="footer-sections">
+                <h2>JTP</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nulla, hic libero qui placeat impedit quaerat in totam nam reprehenderit, pariatur omnis nostrum ipsum aspernatur fugiat recusandae eum, quos aperiam similique inventore quod aliquam? Facilis earum nostrum odio.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
